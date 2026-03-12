@@ -40,3 +40,10 @@ Virtual Machines
 ### Subnet Configuration
 
 ![Subnets](screenshots)
+
+## Automation Scripts
+
+PowerShell scripts used during the lab setup are included in the `scripts` folder.
+
+- `install-ad-ds.ps1` – Installs Active Directory Domain Services and promotes the server to a Domain Controller.
+- `join-domain.ps1` – Joins the Windows client machine to the Active Directory domain.
